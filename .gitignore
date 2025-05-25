@@ -1,0 +1,38 @@
+# Fichiers Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Dossiers de build Cython/C++
+build/
+*.so
+*.o
+*.obj
+*.dll
+*.dylib
+*.a
+*.out
+
+# Dossiers Cython générés
+*.cpp
+*.c
+*.h
+
+# Fichiers de benchmark ou figures
+benchmarks/*.csv
+figures/*.png
+figures/*.pdf
+
+# Dossiers et fichiers temporaires
+*.log
+*.tmp
+.DS_Store
+
+# Cache Jupyter si utilisé
+.ipynb_checkpoints
+
+# Environnement virtuel local
+.env/
+.venv/
+env/
+venv/
