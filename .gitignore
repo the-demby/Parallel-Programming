@@ -18,10 +18,9 @@ build/
 *.c
 *.h
 
-# Fichiers de benchmark ou figures
+# Fichiers de benchmark
 benchmarks/*.csv
-figures/*.png
-figures/*.pdf
+
 
 # Dossiers et fichiers temporaires
 *.log
